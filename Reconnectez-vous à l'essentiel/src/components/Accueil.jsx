@@ -1,3 +1,7 @@
 export default function Accueil() {
-  return;
+  return (
+    <>
+      <h1>coucou</h1>
+    </>
+  );
 }

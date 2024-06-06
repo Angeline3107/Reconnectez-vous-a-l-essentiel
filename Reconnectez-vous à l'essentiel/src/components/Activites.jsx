@@ -1,3 +1,7 @@
 export default function Activites() {
-  return;
+  return (
+    <>
+      <h2>yes</h2>
+    </>
+  );
 }
