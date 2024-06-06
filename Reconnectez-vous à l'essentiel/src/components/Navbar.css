@@ -8,11 +8,16 @@
   border-radius: 50%;
 }
 
-nav,
-ul,
-li {
+nav {
   display: flex;
-  text-decoration: none;
+  width: 100vw;
   justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
   align-items: center;
 }

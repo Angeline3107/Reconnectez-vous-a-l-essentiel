@@ -2,7 +2,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div>
-      <nav>
+      <nav className="navbar">
         <img
           className="logo"
           src="../../src/images/Logo.jpg"
