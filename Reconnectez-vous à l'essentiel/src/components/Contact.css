@@ -8,6 +8,7 @@ header h1 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 2.5em;
+  color: white;
 }
 
 header p {
@@ -26,6 +27,7 @@ header p {
 .form-group {
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .form-group label {
@@ -63,11 +65,13 @@ button:hover {
 .contact-details h2 {
   font-size: 2em;
   margin-bottom: 10px;
+  color: #ec2525;
 }
 
 .contact-details p {
   font-size: 1.2em;
   margin: 5px 0;
+  color: #ffc50a;
 }
 
 .testimonials {
@@ -77,12 +81,14 @@ button:hover {
 .testimonials h2 {
   font-size: 2em;
   margin-bottom: 20px;
+  color: #ec2525;
 }
 
 .testimonial {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  color: #ffc50a;
 }
 
 .testimonial img {
@@ -94,4 +100,8 @@ button:hover {
 
 .testimonial p {
   font-size: 1.2em;
+  color: #ffc50a;
+}
+.pour {
+  color: #ffc50a;
 }

@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="contact-section">
         <header>
           <h1>Nous Contacter</h1>
-          <p>
+          <p className="pour">
             Pour toute question, suggestion, ou pour rejoindre notre communauté,
             n'hésitez pas à nous contacter via le formulaire ci-dessous. Nous
             serons ravis de vous répondre.
