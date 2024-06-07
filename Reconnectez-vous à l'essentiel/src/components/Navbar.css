@@ -1,18 +1,31 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 .logo {
   width: 80px;
   border-radius: 50%;
 }
 
-nav,
-ul,
-li {
+.nav-container {
   display: flex;
-  text-decoration: none;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffa07a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+li {
+  padding-right: 32px;
 }
