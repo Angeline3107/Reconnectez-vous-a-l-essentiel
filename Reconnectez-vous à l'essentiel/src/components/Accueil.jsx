@@ -13,6 +13,7 @@ export default function Accueil() {
           numérique, et bien-être au grand air.
         </p>
         <img
+          className="Fauteuil"
           src="../../src/images/accueil.jpg"
           alt="Détente au bord de la mer"
         />

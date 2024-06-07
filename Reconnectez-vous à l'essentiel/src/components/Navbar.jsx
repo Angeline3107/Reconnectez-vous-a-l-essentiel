@@ -1,6 +1,4 @@
-import Accueil from "./Accueil";
 import "./Navbar.css";
-import { useState } from "react";
 
 export default function Navbar({ setCurrentPage }) {
   const visitHome = (e) => {
@@ -20,7 +18,7 @@ export default function Navbar({ setCurrentPage }) {
       <nav className="navbar">
         <img
           className="logo"
-          src="../../src/images/Logo.jpg"
+          src="../../src/images/image.png"
           alt="Logo plage"
         />
         <ul>

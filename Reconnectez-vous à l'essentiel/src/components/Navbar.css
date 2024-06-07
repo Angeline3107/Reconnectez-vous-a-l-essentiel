@@ -1,5 +1,5 @@
 .logo {
-  width: 80px;
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -13,11 +13,11 @@ nav {
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffa07a;
+  background-color: #ffc50a;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 16px;
+  padding: 10px;
 }
 
 ul {
@@ -28,4 +28,7 @@ ul {
 }
 li {
   padding-right: 32px;
+}
+nav ul li a {
+  color: black;
 }
