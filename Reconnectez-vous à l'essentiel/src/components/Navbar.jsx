@@ -16,7 +16,7 @@ export default function Navbar({ setCurrentPage }) {
     e.preventDefault();
   };
   return (
-    <div>
+    <div className="nav-container">
       <nav className="navbar">
         <img
           className="logo"

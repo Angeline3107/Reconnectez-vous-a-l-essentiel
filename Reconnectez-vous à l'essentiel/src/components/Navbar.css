@@ -3,12 +3,17 @@
   border-radius: 50%;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
 nav {
   display: flex;
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  background-color: #ffa07a;
   position: fixed;
   top: 0;
   left: 0;

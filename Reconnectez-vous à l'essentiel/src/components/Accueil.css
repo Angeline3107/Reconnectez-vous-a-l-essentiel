@@ -1,0 +1,31 @@
+header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.Title1-Accueil {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.Title2-Accueil {
+  font-size: 20px;
+}
+
+.Paragraph-Accueil {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #e5e7e6;
+}
