@@ -1,16 +1,8 @@
-import "./Navbar.css";
-
-export default function Navbar({ setCurrentPage }) {
-  const visitHome = (e) => {
-    setCurrentPage("Accueil");
-    e.preventDefault();
-  };
-  const visitActivites = (e) => {
-    setCurrentPage("Activités");
-    e.preventDefault();
-  };
-  const visitContact = (e) => {
-    setCurrentPage("Contact");
-    e.preventDefault();
-  };
+import "./Footer.css";
+export default function Footer() {
+  return (
+    <footer>
+      <p>&copy; Détente en bord de mer</p>
+    </footer>
+  );
 }
