@@ -6,3 +6,13 @@ footer {
   background-color: #ffc50a;
   padding: 16px;
 }
+@media (max-width: 445px) {
+  footer {
+    margin-top: 100px;
+  }
+  footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

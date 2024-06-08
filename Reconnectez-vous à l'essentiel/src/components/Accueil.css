@@ -22,8 +22,26 @@ header {
 }
 
 .Fauteuil {
-  display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
+}
+@media (max-width: 445px) {
+  header {
+    margin-top: 100px;
+    padding: 0;
+    width: auto;
+  }
+  .Title1-Accueil {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .Title2-Accueil {
+    display: block;
+  }
+  .fauteuil {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
 }
