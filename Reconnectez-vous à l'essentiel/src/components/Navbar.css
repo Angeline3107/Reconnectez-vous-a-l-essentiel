@@ -33,7 +33,13 @@ nav ul li a {
   color: black;
 }
 @media (max-width: 445px) {
-  ul {
-    display: block;
+  .nav-container {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar {
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 0;
   }
 }

@@ -27,7 +27,7 @@ header {
 }
 @media (max-width: 445px) {
   header {
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 0;
     width: auto;
   }

@@ -71,5 +71,6 @@ button:focus-visible {
 @media (max-width: 445px) {
   body {
     display: block;
+    width: auto;
   }
 }
