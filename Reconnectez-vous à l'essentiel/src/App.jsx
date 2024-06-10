@@ -1,10 +1,5 @@
-/*import Navbar from "./components/Navbar";
-import Accueil from "./components/Accueil";
-import Activites from "./components/Activites";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import React, { useState } from "react";
-
+/*
+sans react-router-dom
 export default function App() {
   const [currentPage, setCurrentPage] = useState("Accueil");
 
